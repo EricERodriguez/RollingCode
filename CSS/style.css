@@ -1,13 +1,28 @@
 /**{
     color: darkblue;
 }*/
-/* body{
-    color: darkgreen;
-} */
+
 *{
     color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
 }
-h1{
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+nav{
+    background-color: #333333;
+}
+.botonesNav{
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+}
+.botonesNav:hover{
+    color: orangered;
+}
+/* h1{
     color: darkmagenta;
 }
 .estiloParrafo{
@@ -17,7 +32,7 @@ h1{
 #primerTitulo{
     background-color: aquamarine;
     color: white;
-}
+} */
 
 /* con . es selector de class y con # es selector id */
 
