@@ -3,13 +3,19 @@
 }*/
 
 *{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 0%;
     margin: 0%;
+    text-shadow: 1px 5px 5px rgb(0, 0, 0);
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 body{
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    background-image: url('/assets/Images/pink-violet-free-vector-watercolor-texture.jpg');
+    border-image-repeat: repeat;
 }
 nav{
     background-color: #333333;
@@ -22,6 +28,31 @@ nav{
 .botonesNav:hover{
     color: orangered;
 }
+#cabecera{
+    padding: 50px;
+}
+.titulos {
+    color: orangered;
+    text-align: center;
+}
+.estiloParrafo{
+    background-image: url('/assets/Images/pattern-theme.jpg');
+    align-items: center;
+}
+p{
+    color: white;
+}
+
+footer{
+    background: rgb(1,0,36);
+    background: linear-gradient(41deg, rgba(1,0,36,1) 50%, rgba(190,46,71,1) 100%);
+}
+.copyfooter{
+    text-align: center;
+    text-shadow: 0.5px 1px 5px rgb(31, 167, 221);
+}
+
+
 /* h1{
     color: darkmagenta;
 }
