@@ -3,21 +3,24 @@
 }*/
 
 *{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 0%;
     margin: 0%;
-    text-shadow: 1px 5px 5px rgb(0, 0, 0);
+    text-shadow: 1px 5px 5px rgb(7, 75, 121);
     align-items: center;
     align-content: center;
     text-align: center;
+    box-sizing: border-box;
 }
+
 body{
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     background-image: url('/assets/Images/pink-violet-free-vector-watercolor-texture.jpg');
-    border-image-repeat: repeat;
+    background-repeat: round;
 }
 nav{
+    display: flex;
     background-color: #333333;
 }
 .botonesNav{
@@ -28,7 +31,17 @@ nav{
 .botonesNav:hover{
     color: orangered;
 }
+section {
+    width: 75%;
+    float: left;
+}
+aside{
+    display: flex;
+    float: right;
+    width: 220px;
+}
 #cabecera{
+    display: flex;
     padding: 50px;
 }
 .titulos {
@@ -38,18 +51,22 @@ nav{
 .estiloParrafo{
     background-image: url('/assets/Images/pattern-theme.jpg');
     align-items: center;
+    font-size: 250%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 p{
-    color: white;
+    color: rgb(7, 70, 70);
 }
 
 footer{
-    background: rgb(1,0,36);
-    background: linear-gradient(41deg, rgba(1,0,36,1) 50%, rgba(190,46,71,1) 100%);
+    background: rgb(205,204,235);
+    background: linear-gradient(41deg, rgba(205,204,235,1) 50%, rgba(213,187,192,0.9515669515669516) 100%);
 }
 .copyfooter{
     text-align: center;
-    text-shadow: 0.5px 1px 5px rgb(31, 167, 221);
+    text-shadow: 0.5px 1px 5px rgb(13, 26, 31);
 }
 
 
@@ -68,15 +85,30 @@ footer{
 /* con . es selector de class y con # es selector id */
 
 .cajas{
+    align-items: center;
     background-color: green;
-    width: 100px;
+    /* width: 0px; */
     height: 100px;
     border: blue;
     border-style: groove;
-    margin: 50px;
+    margin: 2px;
     padding-left: 200px;
 }
 #caja1{
+    align-items: center;
     opacity: 50%;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.whatsapp img{
+    height: 60px;
+}
+.logroll{
+    display:inline;
+    width: 35%;
+    height: 35%;
 }
 
